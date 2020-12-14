@@ -1,0 +1,5 @@
+META-INF/spring-configuration-metadata.json
+com/example/controller/TestController.class
+com/example/beans/Book.class
+com/example/beans/Author.class
+com/example/ValueConfigSpringApplication.class

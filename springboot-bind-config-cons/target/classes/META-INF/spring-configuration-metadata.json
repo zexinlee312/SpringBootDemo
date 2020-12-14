@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "name": "acme",
+      "type": "com.example.beans.AcmeProperties",
+      "sourceType": "com.example.beans.AcmeProperties"
+    },
+    {
+      "name": "acme",
+      "type": "com.example.beans.AnotherComponent",
+      "sourceType": "com.example.service.MyService",
+      "sourceMethod": "getAnotherComponent()"
+    },
+    {
+      "name": "acme.security",
+      "type": "com.example.beans.AcmeProperties$Security",
+      "sourceType": "com.example.beans.AcmeProperties",
+      "sourceMethod": "getSecurity()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "acme.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.beans.AcmeProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "acme.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.beans.AnotherComponent",
+      "defaultValue": false
+    },
+    {
+      "name": "acme.remote-address",
+      "type": "java.net.InetAddress",
+      "sourceType": "com.example.beans.AcmeProperties"
+    },
+    {
+      "name": "acme.remote-address",
+      "type": "java.net.InetAddress",
+      "sourceType": "com.example.beans.AnotherComponent"
+    },
+    {
+      "name": "acme.security.password",
+      "type": "java.lang.String",
+      "sourceType": "com.example.beans.AcmeProperties$Security"
+    },
+    {
+      "name": "acme.security.roles",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.example.beans.AcmeProperties$Security",
+      "defaultValue": "USER"
+    },
+    {
+      "name": "acme.security.username",
+      "type": "java.lang.String",
+      "sourceType": "com.example.beans.AcmeProperties$Security"
+    }
+  ],
+  "hints": []
+}

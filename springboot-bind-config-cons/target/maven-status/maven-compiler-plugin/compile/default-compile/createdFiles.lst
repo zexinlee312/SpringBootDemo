@@ -1,0 +1,7 @@
+com/example/beans/AcmeProperties.class
+META-INF/spring-configuration-metadata.json
+com/example/beans/AcmeProperties$Security.class
+com/example/beans/AnotherComponent.class
+com/example/controller/TestController.class
+com/example/ConsBindSpringApplication.class
+com/example/service/MyService.class

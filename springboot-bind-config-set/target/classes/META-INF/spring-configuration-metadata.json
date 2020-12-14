@@ -1,0 +1,44 @@
+{
+  "groups": [
+    {
+      "name": "ac",
+      "type": "org.example.beans.AcmeProperties",
+      "sourceType": "org.example.beans.AcmeProperties"
+    },
+    {
+      "name": "ac.security",
+      "type": "org.example.beans.AcmeProperties$Security",
+      "sourceType": "org.example.beans.AcmeProperties",
+      "sourceMethod": "getSecurity()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ac.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.example.beans.AcmeProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "ac.remote-address",
+      "type": "java.net.InetAddress",
+      "sourceType": "org.example.beans.AcmeProperties"
+    },
+    {
+      "name": "ac.security.password",
+      "type": "java.lang.String",
+      "sourceType": "org.example.beans.AcmeProperties$Security"
+    },
+    {
+      "name": "ac.security.roles",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.example.beans.AcmeProperties$Security"
+    },
+    {
+      "name": "ac.security.username",
+      "type": "java.lang.String",
+      "sourceType": "org.example.beans.AcmeProperties$Security"
+    }
+  ],
+  "hints": []
+}

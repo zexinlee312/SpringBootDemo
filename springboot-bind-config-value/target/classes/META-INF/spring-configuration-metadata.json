@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "name": "author",
+      "type": "com.example.beans.Author",
+      "sourceType": "com.example.beans.Author"
+    },
+    {
+      "name": "book",
+      "type": "com.example.beans.Book",
+      "sourceType": "com.example.beans.Book"
+    },
+    {
+      "name": "book.author",
+      "type": "com.example.beans.Author",
+      "sourceType": "com.example.beans.Book"
+    }
+  ],
+  "properties": [
+    {
+      "name": "author.author-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.beans.Author"
+    },
+    {
+      "name": "author.sex",
+      "type": "java.lang.Character",
+      "sourceType": "com.example.beans.Author"
+    },
+    {
+      "name": "book.author.author-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.beans.Author"
+    },
+    {
+      "name": "book.author.author-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.beans.Author"
+    },
+    {
+      "name": "book.author.sex",
+      "type": "java.lang.Character",
+      "sourceType": "com.example.beans.Author"
+    },
+    {
+      "name": "book.author.sex",
+      "type": "java.lang.Character",
+      "sourceType": "com.example.beans.Author"
+    },
+    {
+      "name": "book.name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.beans.Book"
+    },
+    {
+      "name": "book.price",
+      "type": "java.lang.Double",
+      "sourceType": "com.example.beans.Book"
+    }
+  ],
+  "hints": []
+}

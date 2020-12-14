@@ -1,0 +1,5 @@
+org/example/controller/TestController.class
+org/example/beans/AcmeProperties.class
+org/example/BindConfigSpringApplication.class
+META-INF/spring-configuration-metadata.json
+org/example/beans/AcmeProperties$Security.class
