@@ -1,6 +1,5 @@
 package com.example.pagehelper.service.impl;
 
-import com.example.pagehelper.entity.OrderPresentInfo;
 import com.example.pagehelper.entity.User;
 import com.example.pagehelper.mapper.UserMapper;
 import com.example.pagehelper.service.UserService;
